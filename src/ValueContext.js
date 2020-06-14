@@ -1,3 +1,3 @@
 import React from 'react'
-const ValueContext = React.useContext(402);
+const ValueContext = React.createContext();
 export default ValueContext;
