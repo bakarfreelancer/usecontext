@@ -7,6 +7,7 @@ function App() {
     <ValueContext.Provider value={3}>
     <div className="App">
      <Parent></Parent>
+     <div>text</div>
     </div>
     </ValueContext.Provider>
   );
